@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   resources :songs, only: [:show, :index]
 end 
   resources :songs 
-  
+  root 'posts#index'
 end
